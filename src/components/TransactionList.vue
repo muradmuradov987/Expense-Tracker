@@ -9,7 +9,7 @@
       >
         <div class="text">{{ item.text }}</div>
         <div class="amount">${{ item.amount }}</div>
-        <div class="removeTransaction">x</div>
+        <div class="removeTransaction" @click="myStore.deleteTransaction(item.id)">x</div>
       </li>
     </ul>
   </div>
@@ -45,6 +45,10 @@ const myStore = useCounterStore();
       align-items: center;
       box-shadow: 1px 2px 4px 1px rgba(147, 147, 147, 0.79);
       position: relative;
+      .text{
+        width: 80%;
+        word-wrap: break-word;
+      }
       &:hover {
         .removeTransaction {
           visibility: visible;

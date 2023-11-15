@@ -8,12 +8,12 @@ body {
   background: #F7F7F7;
   min-height: 100vh;
   overflow-x: hidden;
+  position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
   max-width: 500px;
-  width: 500px;
   margin: 50px auto;
   padding: 0 20px;
 }

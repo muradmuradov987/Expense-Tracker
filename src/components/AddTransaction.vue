@@ -9,19 +9,20 @@
     <div class="form__control">
       <label for="">Amount (negative -expense, positive-income)</label>
       <input
-        type="text"
+        type="number"
         placeholder="Enter amount..."
         v-model="myStore.amount"
       />
     </div>
-    <button class="addTransaction" @click="myStore.addTransaction()">Add transaction</button>
+    <button class="addTransaction" @click="myStore.addTransaction()">
+      Add transaction
+    </button>
   </div>
 </template>
 
 <script setup>
 import { useCounterStore } from "@/stores/counter";
 const myStore = useCounterStore();
-
 </script>
 
 
@@ -45,6 +46,11 @@ const myStore = useCounterStore();
       outline: none;
       font-size: 16px;
       border-radius: 4px;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
     }
   }
   .addTransaction {

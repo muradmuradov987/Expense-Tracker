@@ -1,29 +1,25 @@
 # Expense Tracker
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
 
-## Recommended IDE Setup
+Expense Tracker is a web application built with Vue 3 Composition API and Pinia to help you manage and track your expenses effortlessly.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Features
 
-## Customize configuration
+- Intuitive Interface: User-friendly interface for easy navigation.
+- Expense Tracking: Log and categorize your expenses for better financial management.
+- Graphical Insights: Visualize your spending patterns with insightful charts.
+- Data Persistence: Your expense data is securely stored and easily accessible.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Getting Started
 
-```sh
-npm install
-```
+To get started with this Weather App, simply follow these steps:
 
-### Compile and Hot-Reload for Development
+* Clone the repository: git clone https://github.com/muradmuradov987/Expense-Tracker.git
+* Open the project in your code editor.
+* Install dependencies: npm install
+* Run the development server: npm run dev
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Demo:  https://cashflow-tracker.netlify.app/

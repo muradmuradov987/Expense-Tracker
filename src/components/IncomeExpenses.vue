@@ -1,8 +1,8 @@
 <template>
-  <div class="incomeExpense">
-    <div class="info__card">
+  <div class="incomeExpense" >
+    <div class="info__card" >
       <h5>INCOME</h5>
-      <span class="in">+${{ myStore.incomeAmount }}</span>
+      <span class="in" >+${{ myStore.incomeAmount }}</span>
     </div>
     <div class="line"></div>
     <div class="info__card">

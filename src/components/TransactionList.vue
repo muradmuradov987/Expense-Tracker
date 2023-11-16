@@ -1,7 +1,7 @@
 <template>
   <div class="transactionList">
     <h4>History</h4>
-    <ul>
+    <ul v-auto-animate>
       <li
         :class="item.amount < 0 ? 'negative' : 'positive'"
         v-for="item in myStore.transactionList"
